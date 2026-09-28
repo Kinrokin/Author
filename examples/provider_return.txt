@@ -1,0 +1,18 @@
+<<<BEGIN_CANDIDATE>>>
+# Chapter 1 — The Orchard Clock
+
+Mara arrived before the bell. The orchard had beaten her there.
+
+Ticking moved through the pear trees in scattered pockets: one branch hurried, another dragged, a third stopped whenever she looked directly at it. Tomas waited beneath the oldest trunk with his fists buried in his coat.
+
+“You touched it.”
+
+“I listened.”
+
+“That wasn’t the question.”
+
+A pear dropped between them and rang against the frost.
+
+Tomas flinched. Mara did not bend for it.
+<<<END_CANDIDATE>>>
+NEW_CANON: NONE
