@@ -1,5 +1,7 @@
 # Author
 
+[![CI](https://github.com/Kinrokin/Author/actions/workflows/ci.yml/badge.svg)](https://github.com/Kinrokin/Author/actions/workflows/ci.yml)
+
 ### A human-governed, multi-model writing room for long-form creative work.
 
 **Author** treats AI-generated prose as a proposal, not as authority.
@@ -113,6 +115,18 @@ This pattern is useful anywhere a nondeterministic model proposes changes to a d
 long-form fiction, research drafts, policy documents, design systems, legal drafting workflows, and other
 multi-session knowledge work.
 
+## Evidence
+
+The public reference implementation currently has:
+
+- **7 deterministic tests**
+- CI across **Python 3.10, 3.11, 3.12, and 3.13**
+- a privacy guard that fails if protected production names enter the public tree
+- a runnable synthetic novel and provider-return workflow
+- fail-closed tests for stale parents and unratified canon changes
+
+See the [engineering case study](docs/CASE_STUDY.md) for the design problem, trade-offs, and transferable architecture.
+
 ## Repository map
 
 ```text
@@ -122,6 +136,7 @@ tests/                    provenance and fail-closed tests
 docs/ARCHITECTURE.md      system model and invariants
 docs/THREAT_MODEL.md      failure modes and controls
 docs/DESIGN_DECISIONS.md  engineering rationale
+docs/CASE_STUDY.md        engineering/portfolio case study
 docs/PORTFOLIO.md         what the project demonstrates
 .github/workflows/ci.yml   multi-version test + privacy guard
 ```
